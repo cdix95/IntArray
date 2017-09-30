@@ -38,7 +38,7 @@ int IntArray::size() const{
 }
 
 void IntArray::fill(int k){
-	for(nt i = 0; i < len; i++){
+	for(int i = 0; i < len; i++){
 		data[i] = k;
 	}
 
@@ -58,7 +58,7 @@ int main(int argc, char * args[]) {
       
 	a[0] = 10;
 	a[1] = 11;
-        a[2] = 12;:
+        a[2] = 12;
         assert(a[0] == 10);
         assert(a[1] == 11);
         assert(a[2] == 12);
